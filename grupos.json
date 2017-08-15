@@ -2,19 +2,19 @@
 [
     {
         "nome": "Traição",
-        "conteudo": '<h1>Triação</h1>'+
+        "conteudo": "'<h1>Triação</h1>'+
             '<p><b>Triação</b>, é um das maiores e mais antigas Assessorias Esportivas de Salvador, criada em 2003' +
             ', para atender pessoas que praticam um esporte ' +
             'por prazer e buscam a superação de limites de forma eficiente e saudável.</p>' +
-            '<p> Cadastrado 22 de Junho de 2009.</p>',
-        "centro": {lat: -12.998514, lng: -38.451004}
+            '<p> Cadastrado 22 de Junho de 2009.</p>'",
+        "centro": "{lat: -12.998514, lng: -38.451004}"
     },
     {
-        "nome": 'Marathon Club',
-		    "conteudo": '<h1>Marathon Club</h1>'+
+        "nome": "Marathon Club",
+	"conteudo": "'<h1>Marathon Club</h1>'+
             '<p><b>Marathon Club</b>, é o clube de corrida oficial do Grupo Triplaforma, voltado para pessoas que desejam ter uma vida mais equilibrada ' +
             'e empresas que buscam aumentar a sua performance e entrosamento através de práticas que proporcionam bem-estar </p>' +
-            '<p> Cadastrado 22 de Junho de 2009.</p>',
-        "centro": {lat: -13.008587, lng: -38.529561}
+            '<p> Cadastrado 22 de Junho de 2009.</p>'",
+        "centro": "{lat: -13.008587, lng: -38.529561}"
     }
 ]
