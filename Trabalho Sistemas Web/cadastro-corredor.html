@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Map</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/cadastro.css">
+    </head>
+    <body>
+        <header>
+            <nav id="menu">
+                   
+                <a href="index.html">uRunner</a>
+                    <ul>
+                        <li><a href="">CADASTRO</a></li>
+                        <li><a href="">SERVIÇOS</a></li>
+                        <li><a href="">PARCEIROS</a></li>
+                        <li><a href="">CONTATO</a></li>
+                    </ul>
+            </nav>
+        </header>
+
+        <section id="form" class="container">
+            
+            <h2 id="titulo-form">Cadastro de corredor</h2>
+
+            <form id="form-adiciona">
+                <div >
+                    <label for="nome">Nome:</label>
+                    <input id="nome" name="nome" type="text" placeholder="digite o seu nome" class="campo">
+                </div>
+
+                <div class="grupo">
+                    <label for="peso">Peso:</label>
+                    <input id="peso" name="peso" type="text" placeholder="digite o seu peso" class="campo campo-medio">
+                </div>
+
+                <div class="grupo">
+                    <label for="altura">Altura:</label>
+                    <input id="altura" name="altura" type="text" placeholder="digite a sua altura" class="campo campo-medio">
+                </div>
+
+                <div class="grupo">
+                    <label for="email">E-mail:</label>
+                    <input id="email" name="email" type="text" placeholder="digite o seu e-mail" class="campo campo-medio">
+                </div>
+
+                <button id="cadastrar" class="botao">Cadastrar</button>
+            </form>
+        </section>
+
+        <section id="cadastrados"></section>
+
+        <footer>
+            <p>Desenolvido para a matéria MATC82 - Sistemas Web</p>
+            <p>Universidade Federal da Bahia</p>
+        </footer>
+        <script src="js/form.js"></script>
+    </body>
+</html>
