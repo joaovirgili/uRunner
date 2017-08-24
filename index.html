@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Map</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+    <body>
+        <header>
+            <nav id="menu">
+                   
+                <a href="index.html">uRunner</a>
+                    <ul>
+                        <li><a href="cadastro.html">CADASTRO</a></li>
+                        <li><a href="">SERVIÇOS</a></li>
+                        <li><a href="">PARCEIROS</a></li>
+                        <li><a href="">CONTATO</a></li>
+                    </ul>
+            </nav>
+        </header>
+       
+        <section id="intro">
+            <h1>uRunner</h1>
+            <p>Gerenciamento de corridas e grupos de corridas</p>
+            <a href="" class="botao">VER MAIS</a>
+        </section>
+        
+        <section id="servicos">
+            <h2>SERVIÇOS</h2>
+            <div>
+                <img src="img/servicos1.jpg" alt="">
+                <h3>Procure um grupo</h3>
+                <p>Encontre o grupo de corrida mais próximo de você e junte-se a eles.</p>
+            </div>
+            <div>
+                <img src="img/servicos2.jpg" alt="">
+                <h3>Cadastre seu grupo</h3>
+                <p>Cadastrando seu grupo de corrida, mais pessoas podem se juntar a ele.</p>
+            </div>
+            <div>
+                <img src="img/servicos3.jpg" alt="">
+                <h3>Maratonas e eventos</h3>
+                <p>Fique por dentro das próximas maratonas e eventos que estão por vir.</p>
+            </div>
+            
+        </section>
+        
+        <section id="localizacao">
+            <h2>Grupos cadastrados</h2>
+            
+            <div id="map"></div>
+            
+        </section>
+        
+        <section id="contato">
+            <h2>CONTATO</h2>
+            <p>Entre em contato conosco.</p>
+            <div>
+                <img src="img/telefone.png" alt="telefone">
+                <p><a href="tel:xx555555555">(xx) 55555 5555</a></p>
+            </div>
+            <div>
+                <img src="img/e-mail.png" alt="e-mail">
+                <p><a href="mailto:email@contato.com">email@contato.com</a></p>
+            </div>
+        </section>
+        
+        <footer>
+            <p>Desenolvido para a matéria MATC82 - Sistemas Web</p>
+            <p>Universidade Federal da Bahia</p>
+        </footer>
+        
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsP8ECncK5MFBibBxPLno2N-LgCsdULVA&callback=initMap" async defer></script>
+        <script src="js/mapa.js"></script>
+
+        
+    </body>
+</html>
+    
