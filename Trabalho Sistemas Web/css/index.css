@@ -122,7 +122,7 @@ LOCALIZAÇÃO
 */
 
 #map {
-    width: 400px;
+    width: 600px;
     height: 400px;
 }
 
@@ -227,7 +227,10 @@ MEDIA QUERIES
         width: 300px;
     }
     #servicos div h3,
-    
+    /* 
+    LOCALIZAÇÃO
+    */
+
     
     /*
     CONTATO

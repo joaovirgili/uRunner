@@ -33,7 +33,6 @@ function initMap() {
 			grupos = JSON.parse(resposta);
 			for (let i=0; i<grupos.length; i++) {
 				grupo = grupos[i];
-				console.log(grupo);
 				criaMarker(grupo);
 			}
 		}
