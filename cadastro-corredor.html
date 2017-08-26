@@ -16,49 +16,61 @@
                    
                 <a href="index.html">uRunner</a>
                     <ul>
-                        <li><a href="">CADASTRO</a></li>
-                        <li><a href="">SERVIÇOS</a></li>
-                        <li><a href="">PARCEIROS</a></li>
-                        <li><a href="">CONTATO</a></li>
+                        <li><a href="cadastro.html">CADASTRO</a></li>
+                        <li><a href="servicos.html">SERVIÇOS</a></li>
+                        <li><a href="parceiros.html">PARCEIROS</a></li>
+                        <li><a href="contato.html">CONTATO</a></li>
                     </ul>
             </nav>
         </header>
-
-        <section id="form" class="container">
-            
-            <h1 id="titulo-form">Cadastro de corredor</h1>
+        <section id="titulo" class="container">
+            <h1>Cadastro de corredor</h1>
+        </section>
+        
+        <section id="cadastro-corredor" class="container">
             <div id="texto">
                 <p>Sozinho ou em grupo? Na rua ou na esteira? A corrida ainda é um dos esportes que mais conquista adeptos em todo o mundo. A prática da modalidade na rua, e com ela a realização de centenas de provas durante cada ano, movimenta ainda um mercado milionário.</p>
                 <p>Mesmo tendo sida colocada em xeque recentemente por defensores do HIIT, como método mais eficaz para a perda de gordura, a corrida de longa distância continua fazendo a cabeça dos amantes de atividade física. E não são poucos os benefícios trazidos por um dos esportes considerados mais democráticos do  mundo.</p>
             </div>
-            <form id="form-adiciona">
-                <div class="grupo">
+            <div id="form">
+                <form id="form-adiciona" action="">
+                    
                     <label for="nome">Nome:</label>
                     <input id="nome" name="nome" type="text" required placeholder="digite o seu nome">
-                </div>
-
-                <div class="grupo">
+                    
                     <label for="email">E-mail:</label>
                     <input id="email" name="email" type="email" placeholder="digite o seu e-mail">
-                </div>
-
-                <div class="grupo">
+                    
                     <label for="sexo">Sexo:</label>
-                    <input type="radio" name="sexo" value="masc" checked>Masculino
-                    <input type="radio" name="sex" value"fem">Feminino
-                </div>
-
-                <div class="grupo">
+                    <select name="sexo" id="sexo">
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                    </select><br>
+                
                     <label for="senha">Senha:</label>
                     <input id="senha" type="password" name="senha">
-                </div>
-
-                <div class="grupo">
+                    
                     <label for="nascimento">Data de Nascimento:</label>
                     <input type="date" id="nascimento" name="nascimento">
-                </div>
-                <a href="" class="botao">Cadastrar</a>
-            </form>
+                    
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="cep" name="cep">
+                    
+                    <label for="rua">Rua:</label>
+                    <input type="text" id="rua" name="rua">
+                    
+                    <label for="numero">Numero:</label>
+                    <input type="text" id="numero" name="numero">
+
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" id="bairro" name="bairro">
+                    
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade">
+
+                    <input type="submit" value="Cadastrar" class="botao"></input>
+                </form>
+            </form>    
         </section>
 
         <footer>

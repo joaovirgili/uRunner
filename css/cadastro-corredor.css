@@ -3,6 +3,7 @@ h1 {
     text-align: center;
     border-bottom: 1px solid #4d4d4d;
 }
+
 /*TEXTO*/
 #texto {
     margin-top: 1em;
@@ -17,25 +18,33 @@ h1 {
 FORMULARIO
 */
 #form {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-}
-#form form {
-	display: flex;
-	flex-direction: column;
-    align-items: center;
-    background-color: #ddd;
-    padding: 1em;
-    border: 5px solid #ccc;
-    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 15px 20px;
+    border-radius: 5px;
     margin-top: .5em;
 }
-#form h2 {
+
+form input, select {
+    width: 100%;
+    padding: 12px 0;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.botao {
+    margin: 8px 0;
+    width: 100%;
+}
+
+#cadastro-corredor {
+    margin-top: -.5em;
+}
+
+#cadastro-corredor h2 {
 	padding: 10px;
 }
-#form form div {
+#cadastro-corredor form div {
 	text-align: center;
 	padding: 10px;
 }
@@ -48,3 +57,7 @@ MEDIA QUERIES
     /*
     FORM
     */
+    h1 {
+        text-align: left;
+    }
+}
