@@ -1,49 +1,49 @@
 [
     {
         "nome": "Traição",
-        "conteudo": "<h3>Triação</h3><p><b>Triação</b>, é um das maiores e mais antigas Assessorias Esportivas de Salvador, criada em 2003, para atender pessoas que praticam um esporte por prazer e buscam a superação de limites de forma eficiente e saudável.</p> <p> Cadastrado 22 de Junho de 2009.</p>",
+        "conteudo": "'<h1>Triação</h1><p><b>Triação</b>, é um das maiores e mais antigas Assessorias Esportivas de Salvador, criada em 2003, para atender pessoas que praticam um esporte por prazer e buscam a superação de limites de forma eficiente e saudável.</p> <p> Cadastrado 22 de Junho de 2009.</p>'",
         "latitude": -12.998514,
 	      "longitude":-38.451004
     },
     {
         "nome": "Marathon Club",
-	      "conteudo": "'<h3>Marathon Club</h3> <p><b>Marathon Club</b>, é o clube de corrida oficial do Grupo Triplaforma, voltado para pessoas que desejam ter uma vida mais equilibrada e empresas que buscam aumentar a sua performance e entrosamento através de práticas que proporcionam bem-estar.</p> <p>Cadastrado 16 de Agosto de 2011.</p>'",
+	      "conteudo": "'<h1>Marathon Club</h1> <p><b>Marathon Club</b>, é o clube de corrida oficial do Grupo Triplaforma, voltado para pessoas que desejam ter uma vida mais equilibrada e empresas que buscam aumentar a sua performance e entrosamento através de práticas que proporcionam bem-estar.</p> <p>Cadastrado 16 de Agosto de 2011.</p>'",
         "latitude": -13.008587, 
 	      "longitude": -38.529561
     },
     {
         "nome": "Ufba",
-	      "conteudo": "'<h3>Ufba Club</h3> <p><b>Ufba Club</b>.Você que é universitário e estuda na UFBA ou mora nas redondezas da faculdade, venha para o clube de corrida da UFBA. Todas terças e quintas na Ondina.</p> <p>Cadastrado 6 de Setembro de 2016.</p>'",
+	      "conteudo": "'<h1>Ufba Club</h1> <p><b>Ufba Club</b>.Você que é universitário e estuda na UFBA ou mora nas redondezas da faculdade, venha para o clube de corrida da UFBA. Todas terças e quintas na Ondina.</p> <p>Cadastrado 6 de Setembro de 2016.</p>'",
         "latitude": -13.001865, 
 	      "longitude": -38.507568
     },
     {
 	 "nome": "Itapuã Club",
-	      "conteudo": "'<h3>Itapuã Club</h3> <p><b>Itapuã Club</b>, o melhor clube de corrida de Salvador é aqui em Itapuã, correndo pela linda orla de Salvador, além de treinos na praia.</p> <p>Cadastrado 1 de Dezembro de 2012.</p>'",
+	      "conteudo": "'<h1>Itapuã Club</h1> <p><b>Itapuã Club</b>, o melhor clube de corrida de Salvador é aqui em Itapuã, correndo pela linda orla de Salvador, além de treinos na praia.</p> <p>Cadastrado 1 de Dezembro de 2012.</p>'",
         "latitude": -12.954732, 
 	      "longitude": -38.354233
     },
     {
 	 "nome": "Race club  of Pituba",
-	 "conteudo": "'<h3>Race club  of Pituba</h3> <p><b>Race club  of Pituba</b>, este clube é para você que corre profissionalmente, e deseja treinar com outros atletas. Participamos das divesas corridas de rua pelo Brasil, venha ser um vencedor junto com Race club  of Pituba.</p> <p>Cadastrado 5 de Novembro de 2012.</p>'",
+	 "conteudo": "'<h1>Race club  of Pituba</h1> <p><b>Race club  of Pituba</b>, este clube é para você que corre profissionalmente, e deseja treinar com outros atletas. Participamos das divesas corridas de rua pelo Brasil, venha ser um vencedor junto com Race club  of Pituba.</p> <p>Cadastrado 5 de Novembro de 2012.</p>'",
         "latitude": -13.003048, 
 	      "longitude":-38.456342
      },
      {
 	 "nome": "Race club Mussurunga",
-	 "conteudo": "'<h3>Race club Mussurunga</h3> <p><b>Race club Mussurunga</b>, se você está em Mussurunga e está sem nada pra fazer, quer manter o bem-estar do corpo e conhecer novas pessoas venha pro clube de corrida Race Club Mussurunga </p> <p>Cadastrado 25 de Junho de 2013.</p>'",
+	 "conteudo": "'<h1>Race club Mussurunga</h1> <p><b>Race club Mussurunga</b>, se você está em Mussurunga e está sem nada pra fazer, quer manter o bem-estar do corpo e conhecer novas pessoas venha pro clube de corrida Race Club Mussurunga </p> <p>Cadastrado 25 de Junho de 2013.</p>'",
         "latitude": -12.914327, 
 	      "longitude":-38.366102
      },	
       {
 	 "nome": "Club Flash",
-	 "conteudo": "'<h3>Club Flash</h3> <p><b>Club Flash</b>, clube de corrida pra quem curte a série The Flash, correndo em um dos lugares mais bonitos de Salvador, Ribeira, venha você també fazer parte do Time Flash.</p> <p>Cadastrado 8 de Fevereiro de 2015.</p>'",
+	 "conteudo": "'<h1>Club Flash</h1> <p><b>Club Flash</b>, clube de corrida pra quem curte a série The Flash, correndo em um dos lugares mais bonitos de Salvador, Ribeira, venha você també fazer parte do Time Flash.</p> <p>Cadastrado 8 de Fevereiro de 2015.</p>'",
         "latitude": -12.919590, 
 	      "longitude": -38.499758
      },	
 	  {
 	 "nome": "Imbuí Club",
-	 "conteudo": "'<h3>Imbuí Club</h3> <p><b>Imbuí Club</b>, é o clube de corrida oficial do bairro do Imbuí, destinado a quem gosta de correr e fazer novos amigos, mantendo a boa forma física e mental .</p> <p>Cadastrado 10 de Outubro de 2016.</p>'",
+	 "conteudo": "'<h1>Imbuí Club</h1> <p><b>Imbuí Club</b>, é o clube de corrida oficial do bairro do Imbuí, destinado a quem gosta de correr e fazer novos amigos, mantendo a boa forma física e mental .</p> <p>Cadastrado 10 de Outubro de 2016.</p>'",
         "latitude": -12.968950, 
 	      "longitude": -38.438852
      }		
