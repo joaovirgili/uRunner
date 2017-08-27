@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/cadastro-grupo.css">
+        <link rel="stylesheet" type="text/css" href="css/header.css">
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
+
+
+        </head>
+    <body>
+          <header>
+            <nav id="menu">
+                   
+                <a href="index.html">uRunner</a>
+                    <ul>
+                        <li><a href="cadastro.html">CADASTRO</a></li>
+                        <li><a href="index.html#servicos">SERVIÇOS</a></li>
+                        <li><a href="index.html#contato">CONTATO</a></li>
+                    </ul>
+            </nav>
+        </header>
+        </br>
+   <h1>Cadastro de Grupos</h1>
+
+<div id="Center" class="container">
+    <form  action="#" method="post">
+        <fieldset>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome">Nome do grupo:</label>
+                    <input type="text" id="nome" name="nome" style="width: 20em" value="" />
+                </div>
+               
+            </fieldset>
+            <div class="campo">
+                <label>Tamanho da Corrida</label>
+
+                <input type="radio" name="t_corrida" value="2-5"> 2 KM - 5 KM
+                </label>
+                <label>
+                    <input type="radio" name="t_corrida" value="5-10"> 5 KM - 10 KM
+                </label>
+                <label>
+                    <input type="radio" name="t_corrida" value="10-15"> 10 KM - 15 KM
+                </label>
+                <label>
+                    <input type="radio" name="t_corrida" value="15-20"> 15 KM - 20 KM
+                </label>
+            </div>
+            <div class="campo">
+                <label for="email">Horário de Inicio</label>
+                <input type="text" id="inicio" name="inicio" style="width: 10em" value="" />
+            </div>
+     
+            <fieldset class="grupo">
+             <div class="campo">
+                    <label for="estado">Estado</label>
+                    <select name="estado" id="estado">
+                        <option value="">--</option>
+                        <option value="AM">AM</option>
+                        <option value="BA">BA</option>
+
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" name="cidade" style="width: 10em" value="" />
+                </div>
+                 <div class="campo">
+                    <label for="cidade">Bairro</label>
+                    <input type="text" id="bairro" name="bairro" style="width: 10em" value="" />
+                </div>
+               
+            </fieldset>
+     
+            <div class="campo">
+                <label>Local da Corrida</label>
+                <label>
+                <input type="text" id="local" name="local" style="width: 30em" value="" />
+                </label>
+            </div>
+     
+            <center><button type="submit" name="submit">Cadastrar</button></center>
+     
+        </fieldset>
+    </form> 
+
+</div>
+
+       <footer>
+            <p>Desenolvido para a matéria MATC82 - Sistemas Web</p>
+            <p>Universidade Federal da Bahia</p>
+        </footer>
+   
+    </body>
+
+</html>
