@@ -3,6 +3,10 @@ h1 {
     text-align: center;
     border-bottom: 1px solid #4d4d4d;
 }
+#buscaCep {
+    padding: 0;
+    padding: 5px;
+}
 
 /*TEXTO*/
 #texto {
@@ -13,6 +17,7 @@ h1 {
     text-indent: 1em;
     text-align: justify;
 }
+
 
 /*
 FORMULARIO
