@@ -1,0 +1,44 @@
+h1 {
+    border-bottom: 1px solid #ccc;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+}
+section p {
+    text-align: justify;
+    margin-top: .5em;
+}
+
+/*grupos*/
+#lista  {
+    display: flex;
+    flex-direction: column;
+}
+#lista li {
+    padding: 5px 0;
+    margin: .2em 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 720px) {
+
+    #lista {
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-direction: space-around;
+        width: 100%;
+    }
+    #lista li {
+        justify-content: center;
+        width: 40%;
+        margin: .5em 0;
+        margin-left: 5%;
+    }
+
+    footer {
+        margin-top: 13.1em;
+    }
+
+}

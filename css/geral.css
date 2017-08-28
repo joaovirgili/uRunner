@@ -10,6 +10,7 @@ h1, h2, h3 {
 }
 h1 {
     font-size: 35px;
+    margin-top: 2em;
 }
 h2 {
     font-size: 25px;
@@ -19,9 +20,13 @@ h2 {
     color: #f1f1f1;
     text-decoration: none;
     padding: 10px 30px;
-    background-color: #8f3faf;
+    background-color: #72328c;
     font-size: .9em;
     border-radius: 3px;
+    cursor: pointer;
+}
+.botao:hover {
+    background-color: #8f3faf;
 }
 .container {
 	margin: 0 auto;

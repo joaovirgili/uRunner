@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Map</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/header.css">
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
+        <link rel="stylesheet" type="text/css" href="css/grupos.css">
+        <link rel="stylesheet" type="text/css" href="css/geral.css">
+        
+    </head>
+    <body>
+        <header>
+            <nav id="menu">
+                   
+                <a href="index.html">uRunner</a>
+                    <ul>
+                        <li><a href="cadastro.html">CADASTRO</a></li>
+                        <li><a href="#servicos">SERVIÇOS</a></li>
+                        <li><a href="#contato">CONTATO</a></li>
+                    </ul>
+            </nav>
+        </header>
+
+        <section id="titulo" class="container">
+            <h1>Grupos Cadastrados</h1>
+            <p>Estes são todos os grupos cadastrados conosco, clique no de sua preferência para saber mais sobre ele!</p>
+        </section>
+
+        <section class="container" >
+                <div>
+                    <ul id="lista" >
+                    </ul>
+                </div>
+        </section>
+
+        <section class="container"><div id="map"></div></section>
+
+        <footer>
+                <p>Desenolvido para a matéria MATC82 - Sistemas Web</p>
+                <p>Universidade Federal da Bahia</p>
+            </footer>
+            
+    
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsP8ECncK5MFBibBxPLno2N-LgCsdULVA&callback=initMap" async defer></script>
+            <script src="js/mapa.js"></script>
+        </body>
+    </html>
