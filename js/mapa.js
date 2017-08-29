@@ -30,7 +30,7 @@ function initMap() {
 	var grupos;
 	var xhr = new XMLHttpRequest();
 	xhr.open("GET", "https://raw.githubusercontent.com/joaovirgili/uRunner/master/grupos.json", true);
-	xhr.addEventListener("load", function(e, grupos) {
+	xhr.addEventListener("load", function() {
 		var resposta = xhr.responseText;
 		if (xhr.status == 200) {
 			grupos = JSON.parse(resposta);

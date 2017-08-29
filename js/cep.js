@@ -12,6 +12,7 @@ buscaCep.addEventListener("click", function (){
 	xhr.addEventListener("load", function(e, grupos) {
 	var resposta = xhr.responseText;
 		if (xhr.status == 200) {
+			console.log(resposta);
 			dadosCEP = JSON.parse(resposta);
 			var rua = document.getElementById("rua");
 			rua.value = dadosCEP.logradouro;
